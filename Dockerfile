@@ -22,4 +22,4 @@ COPY jenkins-swarm-agent.sh /usr/local/bin/jenkins-swarm-agent.sh
 USER jenkins
 VOLUME /home/jenkins
 
-ENTRYPOINT ["/usr/local/bin/jenkins-slave.sh"]
+ENTRYPOINT ["/usr/local/bin/jenkins-swarm-agent.sh"]
